@@ -1,4 +1,4 @@
-package hangman
+package hangmanpackage
 
 func CheckInput(input string) bool { //Checks if there isn't any non letter characters in a string
 	for _, checkRune := range input {
