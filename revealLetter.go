@@ -15,7 +15,6 @@ func RevealLetter(word string) []rune { // Reveals the right amount of letters i
 		}
 	}
 	nbToReveal := int(math.Round(float64(len(uniqueLetters))/2.0 - 1.0))
-	fmt.Println("nb : ", nbToReveal)
 	lettersToReveal := []rune{}
 	for compt := 0; compt < nbToReveal; compt++ {
 		randLetter := rand.Intn(len(uniqueLetters))
