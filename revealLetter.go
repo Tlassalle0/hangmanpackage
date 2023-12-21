@@ -1,7 +1,6 @@
 package hangmanpackage
 
 import (
-	"fmt"
 	"math"
 	"math/rand"
 	"slices"
